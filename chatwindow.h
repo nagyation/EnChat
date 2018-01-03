@@ -4,19 +4,19 @@
 #include <QMainWindow>
 
 namespace Ui {
-class chatWindow;
+class ChatWindow;
 }
 
-class chatWindow : public QMainWindow
+class ChatWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit chatWindow(QWidget *parent = 0);
-    ~chatWindow();
+    explicit ChatWindow(QWidget *parent = 0);
+    ~ChatWindow();
 
 private:
-    Ui::chatWindow *ui;
+    Ui::ChatWindow *ui;
 };
 
 #endif // CHATWINDOW_H

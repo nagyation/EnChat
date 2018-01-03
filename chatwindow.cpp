@@ -1,14 +1,14 @@
 #include "chatwindow.h"
 #include "ui_chatwindow.h"
 
-chatWindow::chatWindow(QWidget *parent) :
+ChatWindow::ChatWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::chatWindow)
+    ui(new Ui::ChatWindow)
 {
     ui->setupUi(this);
 }
 
-chatWindow::~chatWindow()
+ChatWindow::~ChatWindow()
 {
     delete ui;
 }
